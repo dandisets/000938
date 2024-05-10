@@ -2,6 +2,7 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000938
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.6/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -9,9 +10,14 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Silkuniene, Giedre (2024) Visualization and characterization of membrane
-  lesions (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000938/draft
+citation: Silkunas, Mantas; Silkuniene, Giedre; Pakhomov, Andrei (2024) Visualization
+  and characterization of membrane lesions (Version draft) [Data set]. DANDI archive.
+  https://dandiarchive.org/dandiset/000938/draft
 contributor:
+- identifier: 0000-0002-4568-9265
+  includeInCitation: true
+  name: Silkunas, Mantas
+  schemaKey: Person
 - affiliation: []
   email: giedre.silkuniene@gmail.com
   includeInCitation: true
@@ -19,20 +25,49 @@ contributor:
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
+- identifier: 0000-0003-3816-3860
+  includeInCitation: true
+  name: Pakhomov, Andrei
+  schemaKey: Person
+- awardNumber: 5R21EY034803
+  includeInCitation: false
+  name: National Institutes of Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: 1R21EY034258
+  identifier: ''
+  includeInCitation: false
+  name: National Institutes of Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2024-03-12T19:12:10.562597+00:00'
-description: '
+description: 'In this study, real-time imaging was used to visualize individual electropores
+  and demonstrate their persistence in electroporated cells.
 
-  In the study, three types of hyperpolarization-induced membrane lesions were identified
-  in HEK cells, CHO cells, and neurons. '
+  '
+ethicsApproval: []
 id: DANDI:000938/draft
 identifier: DANDI:000938
+keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000938/versions/draft/assets/
 name: Visualization and characterization of membrane lesions
+protocol: []
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.6
+studyTarget: []
 url: https://dandiarchive.org/dandiset/000938/draft
 version: draft
+wasGeneratedBy:
+- identifier: 1R21EY034258
+  name: Targeted Neuromodulation by Nanosecond Pulsed Electric Fields
+  schemaKey: Project
+- identifier: R21EY034803
+  name: Next Gen Temporal Interference Stimulation Non-Invasive Neuromodulation
+  schemaKey: Project
