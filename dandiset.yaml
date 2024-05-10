@@ -7,9 +7,21 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach: []
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique: []
+  numberOfBytes: 2762531957
+  numberOfFiles: 5
+  numberOfSubjects: 5
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9606
+    name: Homo sapiens - Human
+    schemaKey: SpeciesType
+  variableMeasured: []
 citation: Silkunas, Mantas; Silkuniene, Giedre; Pakhomov, Andrei (2024) Visualization
   and characterization of membrane lesions (Version draft) [Data set]. DANDI archive.
   https://dandiarchive.org/dandiset/000938/draft
@@ -29,13 +41,13 @@ contributor:
   includeInCitation: true
   name: Pakhomov, Andrei
   schemaKey: Person
-- awardNumber: 5R21EY034803
+- awardNumber: NIH 15R21EY034803
   includeInCitation: false
   name: National Institutes of Health
   roleName:
   - dcite:Funder
   schemaKey: Organization
-- awardNumber: 1R21EY034258
+- awardNumber: NIH 1R21EY034258
   identifier: ''
   includeInCitation: false
   name: National Institutes of Health
@@ -69,5 +81,5 @@ wasGeneratedBy:
   name: Targeted Neuromodulation by Nanosecond Pulsed Electric Fields
   schemaKey: Project
 - identifier: R21EY034803
-  name: Next Gen Temporal Interference Stimulation Non-Invasive Neuromodulation
+  name: Next Generation Temporal Interference Stimulation for Non-Invasive Neuromodulation
   schemaKey: Project
